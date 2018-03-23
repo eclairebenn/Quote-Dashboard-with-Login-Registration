@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 990px;
+    background: linear-gradient(rgb(255, 255, 255), #eaeaea);
+}
+.options, .welcome{
+    display: inline-block;
+}
+.options{
+    text-align: right;
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-left: 604px;
+}
+.welcome{
+    margin-left: 20px;
+}
+.header{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.add_form{
+    margin: 20px;
+    padding: 30px;
+}
+
+input{
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+td{
+    font-size: 20px;
+    height: 75px;
+
+}
+
+.submit{
+    width: 15%
+}
+
+
+table{
+    width: 400px;
+}
+
+select, input{
+    margin-bottom: 10px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}
+.quote_list{
+    width: 400px;
+    border: 1px solid black;
+    padding: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    overflow: scroll;
+    display: inline-block;
+    height: 652px;
+}
+.quote{
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+}
+.favorite{
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+}
+.favorite_list{
+    width: 370px;
+    border: 1px solid black;
+    padding: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: scroll;
+    margin-bottom: 20px;
+    height: 340px;
+}
+
+.left_panal, .right_panal{
+    display: inline-block;
+    vertical-align: top;
+    height: 800px;
+}
+
+.button{
+    width: 148px;
+    display: inline-block;
+}
+
+
+.add_quote{
+    margin-left: 20px;
+}
+
+h2{
+    padding-left: 20px;
+}
+
+.error{
+    color: red;
+}
+
+

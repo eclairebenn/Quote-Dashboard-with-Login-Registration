@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 970px;
+    background: linear-gradient(rgb(242, 178, 148), white, white);
+    padding: 50px;
+}
+
+.register, .login{
+    display: inline-block;
+    vertical-align: top;
+    width: 347px;
+    height: 550px;
+    padding-left: 49px;
+    padding-top: 80px;
+    margin: 35px;
+
+}
+td{
+    text-align: right;
+    height: 75px;
+}
+
+input{
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.submit{
+    width: 35%
+}
+
+.error{
+    color: red;
+}

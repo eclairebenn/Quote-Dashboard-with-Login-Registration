@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 970px;
+    padding: 20px;
+    padding-left: 50px;
+    background: linear-gradient(rgb(255, 255, 255), #c7c7c7);
+    height: 780px;
+}
+.header{
+    padding-top: 30px;
+    margin-right: 40px;
+    text-align: right;
+}
+a{
+    color: rgb(35, 35, 183);
+}
+h2{
+    margin-left: 20px;
+}
+.user_display{
+    margin-left: 20px;
+    padding: 20px;
+}
+.review_links{
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+ul{
+    margin-left: 20px;
+    list-style-type: none;
+}
+li{
+    margin-top: 10px;
+}
+.red{
+    color: red;
+}

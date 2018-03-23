@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'log_reg_app/css/user.css' %}" />
+
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+            <a href="/quotes">Dashboard</a>
+            <a href="/">Logout</a>
+        </div>
+        <h2>Posts by {{user.first_name}}</h2>             
+        <div class="user_display">                 
+            <h3>Count: {{user.quotes_created.all.count}}</h3>            
+        </div>
+        <div class="display_quotes">
+            {% for quote in user.quotes_created.all %}
+                <ul>
+                    <li><span class="red">{{quote.quoter.name}}</span></li>
+                    <li>{{quote.content}}</li>
+                </ul>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

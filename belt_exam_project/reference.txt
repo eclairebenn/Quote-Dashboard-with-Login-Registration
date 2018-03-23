@@ -1,0 +1,2 @@
+            <!-- {% for THING in THINGS|dictsortreversed:"created_at"|slice:":3" %}
+            {{THING.created_at|date:"F jS Y"}} -->
